@@ -17,7 +17,7 @@ submitBtn.addEventListener("click",async (e) => {
             const data = await responce.json();
             const arrData = [data];
             city_name.innerHTML = `${arrData[0].name},${arrData[0].sys.country}`;
-            temp.innerHTML = `${arrData[0].main.temp}<sup>o</sup>C`;
+            temp.innerHTML = `${arrData[0].main.temp}<sup class="degree">o</sup>C`;
             // temp_status.innerText = arrData[0].weather[0].main;
             let tempMode = arrData[0].weather[0].main;
             if (tempMode === "Clouds") {

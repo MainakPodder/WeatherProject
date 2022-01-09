@@ -216,6 +216,9 @@ sup{
     padding: 0rem 2rem;
 
 }
+.degree{
+    font-size: 6rem;
+}
 /* responsive code */
 @media (max-width:768px) {
     .main_header_left{
@@ -233,6 +236,15 @@ sup{
         width: auto;
     }
     .temp_form input[type="text"]{
-        font-size: 1rem;
+        font-size: 1.7rem;
+    }
+    #middle_layer p{
+        font-size: 4rem;
+    }
+    .degree{
+        font-size: 4rem;
+    }
+    #static_img {
+        height: auto;
     }
 }
